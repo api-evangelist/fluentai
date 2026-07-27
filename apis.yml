@@ -1,7 +1,21 @@
 aid: fluentai
 name: Fluent.ai
-description: Fluent.ai is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Fluent.ai is a Montreal-based speech recognition software company, founded in
+  2015, that voice-enables the world's devices with embedded, offline voice AI.
+  Its patented "speech-to-intent" technology maps a user's speech directly to
+  their intended action using acoustic deep neural networks, with no
+  speech-to-text transcription and no cloud connection required. The result is a
+  small-footprint, private-by-design engine that runs fully on-device, is robust
+  to noise, and works across languages and accents. Fluent.ai licenses two core
+  products to OEMs and ODMs: Fluent.ai Air (Automatic Intent Recognition), an
+  on-device command-recognition engine, and Fluent.ai Wakeword, a small-footprint
+  wake-word / keyword-spotting solution. Target markets include smart-home
+  devices, wearables and hearables (including True Wireless Stereo), and
+  industrial IoT and robotics. The company distributes its technology as embedded
+  SDKs and reference designs through hardware partnerships (e.g. Arm, Cadence
+  Tensilica, Knowles) rather than a public cloud API. It is a portfolio company of
+  500 Global.
 url: https://raw.githubusercontent.com/api-evangelist/fluentai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +23,32 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://fluent.ai/wp-content/uploads/2020/04/cropped-fl-192x192.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Voice AI
+- Speech Recognition
+- Embedded
+- On-Device
+- Edge AI
+- Wake Word
+- Voice User Interface
+- IoT
+- Wearables
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +56,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/fluentai-domain-security.yml
 - type: Website
   url: https://fluent.ai
+- type: Blog
+  url: https://fluent.ai/blog/
+- type: Support
+  url: https://fluent.ai/contact/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
